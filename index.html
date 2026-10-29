@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>秘密の資料室｜テイルズガーデン</title>
+<style>
+:root{--paper:#fffaf3;--pink:#bd8297;--ink:#55464c;--line:#ead8d8;--pale:#f8eeee}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:serif;line-height:1.9}
+header{text-align:center;padding:48px 20px 36px;border-bottom:1px solid var(--line);background:linear-gradient(180deg,#f8eeee, var(--paper))}
+.kicker{font-size:.75rem;letter-spacing:.22em;color:var(--pink)}
+h1{font-size:clamp(1.8rem,7vw,2.6rem);font-weight:normal;letter-spacing:.12em;margin:12px 0}
+.subtitle{font-size:.9rem;letter-spacing:.08em}
+main{max-width:760px;margin:auto;padding:28px 18px 56px}
+.intro{text-align:center;margin:0 auto 32px;max-width:560px}
+h2{font-size:1.15rem;font-weight:normal;letter-spacing:.1em;border-bottom:1px solid var(--line);padding-bottom:8px;margin-top:30px}
+.cards{display:grid;grid-template-columns:1fr;gap:12px}
+.card{display:block;padding:17px 18px;border:1px solid var(--line);border-radius:12px;background:#fffdf9;color:inherit;text-decoration:none}
+.card strong{display:block;color:var(--pink);font-size:1.02rem;font-weight:normal}
+.card span{font-size:.85rem}
+.note{padding:14px 16px;background:var(--pale);border-radius:10px;font-size:.88rem}
+footer{text-align:center;padding:22px;font-size:.75rem;color:#8c777e;border-top:1px solid var(--line)}
+@media(min-width:560px){.cards{grid-template-columns:1fr 1fr}}
+</style>
+</head>
+<body>
+<header><div class="kicker">TALES GARDEN · ARCHIVE</div><h1>秘密の資料室</h1><div class="subtitle">テイルズガーデン 設定・創作資料</div></header>
+<main>
+<p class="intro">庭の物語を、そっと紐解くための小さな書庫。<br>キャラクターや魔法、衣装の資料をここに集めています。</p>
+<h2>書庫の案内</h2>
+<div class="cards">
+<a class="card" href="characters/index.html"><strong>✧ 庭の住人たち</strong><span>キャラクターごとの設定資料</span></a>
+<a class="card" href="prompts/common.html"><strong>✧ 共通プロンプト</strong><span>イラスト制作の基本ルール</span></a>
+<a class="card" href="outfits/index.html"><strong>✧ 秘密のクローゼット</strong><span>衣装・装飾品のプロンプト</span></a>
+<a class="card" href="notes/index.html"><strong>✧ 小さな研究ノート</strong><span>制作メモと補足資料</span></a>
+</div>
+<h2>この資料室について</h2>
+<p class="note">このページは試作版です。各書庫のページは、これから少しずつ追加していきます。公開する内容だけを掲載してください。</p>
+</main>
+<footer>TALES GARDEN · A LITTLE PRIVATE ARCHIVE</footer>
+</body>
+</html>
